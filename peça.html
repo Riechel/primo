@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        li{
+            display: inline-block;
+        }
+        nav{
+            background-color: rgb(144, 247, 161);
+            padding: 5px;
+        }
+        nav > a{
+            text-decoration: none;
+            color:blueviolet;
+            display: block;
+            font-weight:bolder;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color:red;
+        }
+        main{
+            background-color: rgb(245, 214, 203);
+            padding: 10px;
+            margin: 10px;
+        }
+        article > aside{
+            background-color: beige;
+            width: 250px;
+            color: blue;
+            font-size: 0.7em;
+        }
+        footer{
+            background-color: black;
+            width: 300px;
+            color:azure;
+            font-size:0.7em;
+            text-align: center;
+            padding: auto;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu Site</h1>
+        <ul>
+            <li>Paulo</li>
+            <li>Jacqueline</li>
+                
+            <li>Tânia</li>
+            <li>Angela</li>
+            <li>Elza</li>
+
+        </ul>
+        <nav>
+            <a href="http://">Link01</a>
+            <a href="http://">Link02</a>
+            <a href="http://">Link03</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <h3>Esporte, Sexo, Colinaria e Fofocas</h3>
+        </section >
+        <section id="notiçias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Ut minima, quis est laboriosam perferendis nulla blanditiis 
+                    tempora. Facere, eius? Fugiat inventore officia perferendis 
+                    dicta reprehenderit deserunt possimus est labore officiis!</p>
+
+                    <aside>
+                        <p>Um artigo geralmento o nome do autor</p>
+                    </aside>
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Densenvolvido por Paulo</p>
+    </footer>
+</body>
+</html>
